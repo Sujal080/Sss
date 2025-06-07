@@ -2,7 +2,7 @@ from config import MASTER_TOKEN
 from extractor import get_all_batches, get_txt_for_batch
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-BOT_TOKEN = "7999358042:AAGXpAPxJkftNoUVKtzq4aQsmbs32wBEmf0"
+BOT_TOKEN = "7460074981:AAH3xfM8LwbSaxqh9HMW_1QKfYXSHKZBRU0"
 
 def start(update, context):
     update.message.reply_text("🎓 Welcome to RG Bot! Use /get_batches or /get_txt")
